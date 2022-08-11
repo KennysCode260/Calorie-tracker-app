@@ -1,0 +1,44 @@
+.meals-container{
+    max-width: var(--base-width);
+    margin: 2rem auto;
+    
+}
+
+
+.meal-heading-container{
+    padding: .5rem 1rem;
+    display: grid;
+    grid-template-columns: 2fr .75fr .75fr .75fr .75fr;
+    
+}
+
+.meal-heading-container > *{
+    text-align: center;
+}
+
+.meal-heading{
+    display: flex;
+    
+}
+
+
+
+.meal-title{
+    text-align: left;
+
+}
+
+.add-food-btn{
+    width: 100%;
+    margin: .25rem 0rem;
+    color: var(--blue);
+    background-color: var(--light);
+    border: none;
+    padding: .5rem;
+    transition: all ease 500s;
+}
+
+.add-food-btn:hover{
+    color: var(--light);
+    background-color: var(--blue);
+}

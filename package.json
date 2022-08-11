@@ -1,7 +1,6 @@
 {
   "name": "boiler-plate",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "dev": "parcel src/index.html",
@@ -12,6 +11,15 @@
   "license": "ISC",
   "devDependencies": {
     "parcel-bundler": "^1.12.5",
-    "sass": "^1.53.0"
-  }
+    "sass": "^1.54.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KennysCode260/Calorie-tracker-app.git"
+  },
+  "bugs": {
+    "url": "https://github.com/KennysCode260/Calorie-tracker-app/issues"
+  },
+  "homepage": "https://github.com/KennysCode260/Calorie-tracker-app#readme",
+  "description": ""
 }

@@ -1,9 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
+:root {
+  --blue: rgb(0, 128, 255);
+  --light: rgb(255, 255, 255);
+}
+
 * {
-  font-family: sans-serif;
+  font-family: "Manrope";
 }
 
 .bold {
   font-weight: 600;
+}
+
+h1 {
+  font-weight: 600;
+  font-size: 2.5rem;
+}
+
+h3 {
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+
+.light-text {
+  font-weight: 300;
+  color: grey;
+}
+
+.highlighted {
+  font-weight: 700;
+  color: rgb(0, 128, 255);
+}
+
+:root {
+  --base-width: 50rem;
 }
 
 /* Box sizing rules */
@@ -77,6 +107,99 @@ select {
     transition-duration: 0.01ms !important;
     scroll-behavior: auto !important;
   }
+}
+.header-heading {
+  text-align: center;
+  margin: 2rem 0rem;
+}
+
+.logo-container {
+  background-image: url("/biceps.27028883.jpg");
+  width: 6rem;
+  height: 5rem;
+  background-position: center;
+  background-size: 10rem;
+  position: relative;
+  top: 2rem;
+}
+
+.logo-container-reverse {
+  transform: scaleX(-1);
+}
+
+.header-container {
+  display: flex;
+  justify-content: center;
+}
+
+.remaining-dashboard-container {
+  max-width: var(--base-width);
+  margin: 0rem auto;
+}
+
+.goal-container {
+  display: flex;
+}
+
+.goal-container > * {
+  margin: auto;
+}
+
+.dashboard-stats {
+  margin: 3rem auto;
+  max-width: var(--base-width);
+  display: flex;
+  justify-content: space-around;
+  border-bottom: solid 1px;
+  padding-bottom: 1rem;
+}
+
+.dashboard-stats > * {
+  text-align: center;
+}
+
+.change-goal-btn {
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  font-size: 1.25rem;
+}
+
+.meals-container {
+  max-width: var(--base-width);
+  margin: 2rem auto;
+}
+
+.meal-heading-container {
+  padding: 0.5rem 1rem;
+  display: grid;
+  grid-template-columns: 2fr 0.75fr 0.75fr 0.75fr 0.75fr;
+}
+
+.meal-heading-container > * {
+  text-align: center;
+}
+
+.meal-heading {
+  display: flex;
+}
+
+.meal-title {
+  text-align: left;
+}
+
+.add-food-btn {
+  width: 100%;
+  margin: 0.25rem 0rem;
+  color: var(--blue);
+  background-color: var(--light);
+  border: none;
+  padding: 0.5rem;
+  transition: all ease 500s;
+}
+
+.add-food-btn:hover {
+  color: var(--light);
+  background-color: var(--blue);
 }
 
 /*# sourceMappingURL=/main.77bb5cfd.css.map */

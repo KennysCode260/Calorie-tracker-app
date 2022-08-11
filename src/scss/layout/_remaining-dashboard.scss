@@ -1,0 +1,34 @@
+.remaining-dashboard-container{
+    max-width: var(--base-width);
+    margin: 0rem auto ;
+}
+
+.goal-container{
+    display: flex;
+
+}
+
+.goal-container > *{
+    margin: auto;
+}
+
+.dashboard-stats{
+    margin: 3rem auto;
+    max-width: var(--base-width);
+    display: flex;
+    justify-content: space-around;
+    border-bottom: solid 1px;
+    padding-bottom: 1rem;
+}
+
+.dashboard-stats > *{
+    text-align: center;
+}
+
+.change-goal-btn{
+    background-color: rgba($color: #000000, $alpha: 0);
+    border: none;
+    font-size: 1.25rem;
+
+    
+}
