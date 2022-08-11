@@ -111,6 +111,7 @@ select {
 .header-heading {
   text-align: center;
   margin: 2rem 0rem;
+  border-bottom: solid;
 }
 
 .logo-container {
